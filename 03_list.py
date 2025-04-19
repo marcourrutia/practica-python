@@ -64,3 +64,8 @@ print(lista[centro])
 lista5 = [1, 2, 3, 4, 5, 6]
 lista6 = lista5[2::-1] + lista5[3:]
 print(lista6)
+
+# comprensión de listas
+animales = ['gato', 'perro', 'canario', 'vaca']
+animales_mayusc = [ani.upper() for ani in animales]
+print(animales_mayusc)
